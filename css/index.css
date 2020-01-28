@@ -1,16 +1,16 @@
 .mainImage{
-    height:185px;
-    width:185px;
+    height:120%;
+    width:120%;
 }
 
 
 .carousel{
-    height: 300px;
+    height: 50%;
 }
 
 .d-block{
-    height: 300px;
-    width: 300px;
+    height: 20em ;
+    width: 20em;
     display: block;
     margin: auto;
 }
@@ -35,7 +35,7 @@ body{
     background-color:  rgb(52, 58, 64);
 }
 a{
-    color:lightpink;
+    color:white;
 }
 
 .wrapper {
@@ -222,3 +222,46 @@ a{
     width:60%;
   }
   
+ 
+
+  .card:hover{
+    color:black;
+  }
+  .carousel{
+    background:linear-gradient(#32383e,#d2d4d6);
+  }
+  .demoObject {
+    -webkit-box-shadow: #FFF 0 -1px 4px, 2px 2px 25px 11px rgba(135,63,78,0.49); 
+    box-shadow: #FFF 0 -1px 4px, 2px 2px 25px 11px rgba(135,63,78,0.49);
+    background: #ECEFCF;
+    }
+    body#tinymce {
+    background: #FFFFFF
+}
+body#tinymce {
+background: #FFFFFF
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
+    .myCard{
+      -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 2px 2px 25px 11px rgba(117,55,68,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 2px 2px 25px 11px rgba(117,55,68,0);
+      
+        
+    }
+    .cvgProduit{
+      background-color: rgb(155,116,116);
+    }
+    .reduc{
+      width: 100px;
+      
+
+    }
+    @media only screen and (max-width:720px){
+      .mainImage{
+        height:85%;
+        width:85%;
+    }
+    
+    }
