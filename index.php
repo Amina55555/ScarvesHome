@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use App\Controller\HomePageController;
 
 try {
-    if (isset($_GET['pages'])) {
+    if (isset($_GET['page'])) {
         if ($_GET['page'] == 'listPosts') {
             HomePageController::listArticles();
         }
