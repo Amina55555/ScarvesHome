@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Scarves Home l'élégance vous rend forte</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
-	<script src='main.js'></script>
-	
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel='stylesheet' type='text/css' media='screen' href='../../public/css/style.css'>
+  <meta name="author" content="">
+
+  <title>Scarves Home l'élégance vous rend forte</title>
+
+ 
 </head>
 
 <body>
-	<header  class="bg-dark d-flex justify-content-around">
-		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-dark mb-5 bg-dark fixed-top">
-				<div class="container">
-				  <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../img/SH-pm.png" alt="Logo" ></a>
-				  
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-					  <li class="nav-item active">
-						<a class="nav-link" href="index.html">Accueil
-						  <span class="sr-only">(current)</span>
-						</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="produit.html">Produits</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="Compte.html">Mon compte</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="#">Mon panier</a>
-					  </li>
-					</ul>
-				  </div>
-				</div>
-			  </nav>
-	</header>
+
+  <!-- Navigation -->
+  <header  class="bg-dark d-flex justify-content-around">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5 bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../../public/img/SH-pm.PNG" alt="Logo" ></a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../homePage/index.php">Accueil
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../produitPage/index.php">Produits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../comptePage/index.php">Mon compte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../contactPage/index.php">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../panierPage/index.php">Mon panier</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
 
 	<div class="container pagectt2 text-white text-center">
         <h1>Scarves Home</h1>
@@ -78,13 +82,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="../img/foulardCARR1 (1).jpg" class="d-block " alt="...">
+					<img src="../../public/img/foulardCARR1 (1).jpg" class="d-block " alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="../img/photo2F.jpg" class="d-block" alt="...">
+					<img src="../../public/img/photo2F.jpg" class="d-block" alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="../img/turban2.jpg" class="d-block" alt="...">
+					<img src="../../public/img/turban2.jpg" class="d-block" alt="...">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -104,10 +108,10 @@
 
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="article.html"><img class="card-img-top " src="../img/foulardCard1.jpg" alt=""></a>
+			<a href="../../view/articlePage /index.php"><img class="card-img-top " src="../../public/img/foulardCard1.jpg" alt="foulard gris argenté bambou"></a>
 			<div class="card-body">
 			  <h4 class="card-title acces-rapide">
-				<a href="./article.html">Jessy</a>
+				<a href="./articlePage/index.php">Jessy</a>
 			  </h4>
 			  <h5>199.99€</h5>
 			 
@@ -122,7 +126,7 @@
 	
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="#"><img class="card-img-top" src="../img/foulardcarr2.jpg" alt=""></a>
+			<a href="#"><img class="card-img-top" src="../../public/img/foulardcarr2.jpg" alt="foulard beige claire bambou"></a>
 			<div class="card-body">
 			  <h4 class="card-title">
 				<a href="#">Eve</a>
@@ -139,7 +143,7 @@
 
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="#"><img class="card-img-top" src="../img/foulardCARDS3.jpg" alt=""></a>
+			<a href="#"><img class="card-img-top" src="../../public/img/foulardCARDS3.jpg" alt="foulard zébré bambou"></a>
 			<div class="card-body">
 			  <h4 class="card-title">
 				<a href="#">Sunny</a>
@@ -156,7 +160,7 @@
 
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="#"><img class="card-img-top" src="../img/foulardCarr4.jpg" alt=""></a>
+			<a href="#"><img class="card-img-top" src="../../public/img/foulardCarr4.jpg" alt="foulard léopard bambou"></a>
 			<div class="card-body">
 			  <h4 class="card-title">
 				<a href="#">Alex</a>
@@ -166,14 +170,14 @@
 			</div>
 			<div class="card-footer d-flex justify-content-around">
 			  <small class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-			  <a href="#" class= "btn btn-outline-dark">Ajouter au panier</a>
+			  <a href="panier.html" class= "btn btn-outline-dark">Ajouter au panier</a>
 			</div>
 		  </div>
 		</div>
 
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="#"><img class="card-img-top" src="../img/foulardCarr5.jpg "alt=""></a>
+			<a href="#"><img class="card-img-top" src="../../public/img/foulardCarr5.jpg "alt="foulard noir et beige"></a>
 			<div class="card-body">
 			  <h4 class="card-title">
 				<a href="#">Romy</a>
@@ -190,7 +194,7 @@
 
 		<div class="col-lg-4 col-md-6 mb-4">
 		  <div class="card h-100 myCard">
-			<a href="#"><img class="card-img-top" src="../img/foulardCarr6.jpg" alt=""></a>
+			<a href="#"><img class="card-img-top" src="../../public/img/foulardCarr6.jpg" alt="foulard à motif beige et bordeaux"></a>
 			<div class="card-body">
 			  <h4 class="card-title">
 				<a href="#">Jasmine</a>
@@ -227,10 +231,10 @@
   <div class="container">
 	<p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
 	<div>
-		<a href="https://www.facebook.com/scarves.home.5"><img class="imgLOGOfooter" src="../logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
-		<a href="https://www.instagram.com/aminaboudjemline/?hl=fr"><img class="imgLOGOfooter" src="../logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
-		<a href="https://twitter.com/amina_boudj"><img class="imgLOGOfooter" src="../logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
-	  </div>
+	<a href="https://www.facebook.com/scarves.home.5" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
+	<a href="https://www.instagram.com/aminaboudjemline/?hl=fr" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
+	<a href="https://twitter.com/amina_boudj" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
+  </div>
   </div>
   <!-- /.container -->
 </footer>

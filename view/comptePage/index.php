@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Scarves Home l'élégance vous rend forte</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
-	<script src='main.js'></script>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel='stylesheet' type='text/css' media='screen' href='../../public/css/style.css'>
+  <meta name="author" content="">
+
+  <title>Scarves Home l'élégance vous rend forte</title>
+
+
+
 </head>
 
 <body>
-	<header  class="bg-dark">
-        <div class="container pagectt2 text-white text-center">
-            <h1>Scarves Home</h1>
-            <p>L'élégance vous rend forte.</p>
-    </div>
-		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-dark mb-5 bg-dark fixed-top">
-				<div class="container">
-				  <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../img/SH-pm.png" alt="Logo" ></a>
-				  
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-					  <li class="nav-item active">
-						<a class="nav-link" href="index.html">Accueil
-						  <span class="sr-only">(current)</span>
-						</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="produit.html">Produits</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="Compte.html">Mon compte</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="panier.html">Mon panier</a>
-					  </li>
-					</ul>
-				  </div>
-				</div>
-			  </nav>
-    </header>
-    
+
+  <!-- Navigation -->
+  <header  class="bg-dark d-flex justify-content-around">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5 bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../../public/img/SH-pm.PNG" alt="Logo" ></a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../homePage/index.php">Accueil
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../produitPage/index.php">Produits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../comptePage/index.php">Mon compte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../contactPage/index.php">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../panierPage/index.php">Mon panier</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
+
+<div class="container pagectt2 text-white text-center">
+        <h1>Scarves Home</h1>
+        <p>L'élégance vous rend forte.</p>
+</div>
+
 
 <!-- /.container -->
 <section class=" m-auto p-5" id="formContact">
@@ -111,11 +118,11 @@
       </div>
       <div class="custom-control custom-switch mt-3 d-flex flex-row justify-content-center align-items-center">
         <input type="checkbox" class="custom-control-input" id="customSwitch2" required>
-        <label class="custom-control-label" for="customSwitch2">Accepter les <a href="../CGV.pdf"> Conditions Générales d'Utilisation</a></label>
+        <label class="custom-control-label" for="customSwitch2">Accepter les <a href="../../public/CGV.pdf"> Conditions Générales d'Utilisation</a></label>
       </div>
       <div class="container mt-3 d-flex flex-row justify-content-center align-items-center">
       <button type="submit" class="btn btn-primary">S'inscrire</button>
-      <a href="menbre.html" class="ml-5"> Déjà inscrit?</a>
+      <a href="../../view/menbrePage/index.php" class="ml-5"> Déjà inscrit?</a>
     </div>
     </form>
     </div>
@@ -125,10 +132,10 @@
   <div class="container">
   <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
   <div>
-    <a href="https://www.facebook.com/scarves.home.5"><img class="imgLOGOfooter" src="../logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
-    <a href="https://www.instagram.com/aminaboudjemline/?hl=fr"><img class="imgLOGOfooter" src="../logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
-    <a href="https://twitter.com/amina_boudj"><img class="imgLOGOfooter" src="../logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
-    </div>
+	<a href="https://www.facebook.com/scarves.home.5" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
+	<a href="https://www.instagram.com/aminaboudjemline/?hl=fr" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
+	<a href="https://twitter.com/amina_boudj" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
+  </div>
   </div>
   <!-- /.container -->
 </footer>

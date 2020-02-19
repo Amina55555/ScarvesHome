@@ -7,16 +7,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../../public/css/style.css'>
   <meta name="author" content="">
 
   <title>Scarves Home l'élégance vous rend forte</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/shop-item.css" rel="stylesheet">
 
 </head>
 
@@ -27,7 +22,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark mb-5 bg-dark fixed-top">
             <div class="container">
-              <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../img/SH-pm.png" alt="Logo" ></a>
+              <a class="navbar-brand reduc" href="#"><img class="mainImage" src="../../public/img/SH-pm.PNG" alt="Logo" ></a>
               
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,21 +30,21 @@
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Accueil
+                    <a class="nav-link" href="../view/homePage/index.php">Accueil
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="produit.html">Produits</a>
+                    <a class="nav-link" href="../produitPage/index.php">Produits</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Compte.html">Mon compte</a>
+                    <a class="nav-link" href="../comptePage/index.php">Mon compte</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="../contactPage/index.php">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="panier.html">Mon panier</a>
+                    <a class="nav-link" href="../panierPage/index.php">Mon panier</a>
                   </li>
                 </ul>
               </div>
@@ -81,7 +76,7 @@
       <div class="col-lg-9">
 
         <div class="card mt-4">
-          <img class="card-img-top img-fluid" src="../img/foulardCard1.jpg" alt="">
+          <img class="card-img-top img-fluid" src="../../public/img/foulardCard1.jpg" alt="foulard gris argenté bambou">
           <div class="card-body">
             <h3 class="card-title">Jessy</h3>
             <h4>199.99€</h4>
@@ -138,10 +133,10 @@
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
       <div>
-        <a href="https://www.facebook.com/scarves.home.5"><img class="imgLOGOfooter" src="../logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
-        <a href="https://www.instagram.com/aminaboudjemline/?hl=fr"><img class="imgLOGOfooter" src="../logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
-        <a href="https://twitter.com/amina_boudj"><img class="imgLOGOfooter" src="../logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
-        </div>
+	<a href="https://www.facebook.com/scarves.home.5" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media-icons-facebook-grey-copy.png" alt="logo facebook"></a>
+	<a href="https://www.instagram.com/aminaboudjemline/?hl=fr" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/bfa_brands-instagram_simple-light-gray_512x512.png" alt="logo instagram"></a>
+	<a href="https://twitter.com/amina_boudj" target="_blank"><img class="imgLOGOfooter" src="../../public/img/logo/social-media_twitter_simple-light-gray_512x512.png" alt="logo twitter"></a>
+  </div>
     </div>
     <!-- /.container -->
   </footer>
